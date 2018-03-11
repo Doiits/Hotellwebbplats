@@ -16,10 +16,6 @@ footer {
     height: 30px;
 }
 
-@media (min-width: 700px) {
-
-}
-
 @import "lesshat";
 
 .front-img {
@@ -70,6 +66,9 @@ header {
     }
     .leading-bigtext {
         font-size: 100px;
+    }
+    #fname, #lname, #email, #phone, #adress, #country, #city, #subject {
+        width: 75%;
     }
 }
 
@@ -269,8 +268,8 @@ input[type=submit]:hover {
 .home-bigtext {
     text-align: center;
     font-weight: bold;
-    font-size: 5em;
     padding-bottom: 20px;
+    font-size: 4em;
 }
 
 .contact-img {
@@ -285,6 +284,7 @@ input[type=submit]:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 25%;
 }
 
 div.gallery {
@@ -308,4 +308,5 @@ div.gallery img {
 div.desc {
     padding: 10px;
     text-align: center;
+    width: 100%;
 }
